@@ -8,8 +8,8 @@ I tried to adhere as closely as possible to the example document provided on the
 
 To use:
 
-1) Add the file `newbiosketch.cls` to your local `texmf` tree
-2) Pattern your document based on `example-nihbiosketch.tex` 
-3) Compile your document with `xelatex` (required for the Arial font that NIH seems to favor)
+ 1. Add the file `newbiosketch.cls` to your local `texmf` tree
+ 2. Pattern your document based on `example-nihbiosketch.tex` 
+ 3. Compile your document with `xelatex` (required for the Arial font that NIH seems to favor)
 
 More complete documentation to come.
