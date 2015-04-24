@@ -32,6 +32,7 @@
 \RequirePackage{ifxetex, ifluatex}   % requires fontspec, so either XeTeX or LuaTeX
 \RequirePackage{fontspec}
 \setmainfont[Ligatures=TeX]{Arial}
+\RequirePackage{microtype}
 
 \RequirePackage{tabu}
 \RequirePackage{ifthen}
