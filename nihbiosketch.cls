@@ -110,6 +110,10 @@ FIELD OF STUDY\\
 \begin{tabu} to 7.5in{X[1,l]X[6.5,l,p]}}
 {\end{tabu}}
 
+\newenvironment{statement}
+{\setlength\parindent{2em}}
+{\setlength\parindent{0pt}}
+
 
 %------------------------------------------------------------------------------
 % setup document geometry    
