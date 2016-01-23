@@ -12,4 +12,5 @@ To use:
  2. Pattern your document based on `example-nihbiosketch.tex` 
  3. Compile your document with `xelatex` or `lualatex` (required for the Arial font that NIH favors)
 
+This package is also available via CTAN at http://www.ctan.org/pkg/nihbiosketch
 
