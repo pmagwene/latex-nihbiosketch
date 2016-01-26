@@ -14,11 +14,11 @@ To use:
  3. Compile your document with `xelatex` or `lualatex` (required for the Arial font that NIH favors)
  
  
- ## Details
+## Details
  
  The `nihbiosketch` class is based off of the standard article class.  It defines several new commands and environments to make creation of an NIH Biosketch easy and straightforward.
  
- ### New commands
+### New commands
  
  * `\name` -- your full name (lastname, firstname)
  * `\eracommons` -- your ERA Commons user name
@@ -26,7 +26,7 @@ To use:
  * `\grantinfo{Grant #}{Grant PI}{Grant Dates}{Grant title}{Grant description}{Your role}` -- takes care of formatting grant info in standard NIH format.
  
  
- ### New environments
+### New environments
  
  * `\begin{education}...\end{education}` -- A table environment for listing academic degrees and training. The four fields of this table are: 1) Institution and Location; 2) Degree; 3) Completion date; 4) Field of study.
  
@@ -35,8 +35,7 @@ To use:
  * `\begin{datetbl}...\end{datetbl}` -- A table environment that makes neatly aligned information with accompanying dates. Use this for employment, honors, other positions, awards, etc. This is a two column table, where the first column is for date information, and the second column is for descriptive text (second column wraps lines).
 
  
- 
- ## Availability
+## Availability
 
 The canonical source repository for this package is https://github.com/pmagwene/latex-nihbiosketch.
 
