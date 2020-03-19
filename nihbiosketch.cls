@@ -36,7 +36,7 @@
 
 \RequirePackage{tabu}
 \RequirePackage{ifthen}
-\RequirePackage{ulem}
+\RequirePackage[normalem]{ulem}
 
 \RequirePackage{enumitem}
 \setlist[enumerate,2]{label=\alph*.,itemsep=0pt,parsep=1pt,partopsep=1pt}
@@ -129,4 +129,5 @@ FIELD OF STUDY\\
 %------------------------------------------------------------------------------
 
 \AfterEndPreamble{\piinfo}
+
 
