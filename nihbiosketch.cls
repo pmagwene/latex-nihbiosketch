@@ -44,11 +44,12 @@
 
 
 \RequirePackage[largestsep]{titlesec}
-\newcommand{\headersize}{\fontsize{13.5pt}{13.5pt}\selectfont}
+% NIH examples use this larger size for some headers
+%\newcommand{\headersize}{\fontsize{13.5pt}{13.5pt}\selectfont}
 
 \renewcommand{\thesection}{\Alph{section}.}
-\titleformat{\section}[hang]{\normalfont\bfseries\headersize}{\thesection}{0.5em}{}
-\titleformat{\subsection}[hang]{\normalfont\bfseries\headersize}{\thesubsection}{0.5em}{\uline}
+\titleformat{\section}[hang]{\normalfont\bfseries}{\thesection}{0.5em}{}
+\titleformat{\subsection}[hang]{\normalfont\bfseries}{\thesubsection}{0.5em}{\uline}
 \titleformat{\subsubsection}[hang]{\normalfont}{\thesubsubsection}{0.5em}{\uline}
 
 \titlespacing{\section}{0pt}{11pt}{1.5pt}
@@ -75,7 +76,7 @@
 \newcommand{\piinfo}
 {\pgline
 {\centering
-\textbf{\headersize BIOGRAPHICAL SKETCH}\\
+\textbf{BIOGRAPHICAL SKETCH}\\
 {\footnotesize
 Provide the following information for the Senior/key personnel and other significant contributors.\\
 Follow this format for each person.  \textbf{DO NOT EXCEED FIVE PAGES}.\\}}
@@ -149,5 +150,3 @@ GRADE \\
 %------------------------------------------------------------------------------
 
 \AfterEndPreamble{\piinfo}
-
-
