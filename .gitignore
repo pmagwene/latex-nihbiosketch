@@ -1,3 +1,9 @@
+## Operating system auxiliary files
+.DS_Store
+
+## Repo organization
+ignore
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
