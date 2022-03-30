@@ -39,6 +39,7 @@ The companion template `postdoc-nihbiosketch.tex` is organized to mimic a Fellow
 
  * `\begin{datetbl}...\end{datetbl}` -- A table environment that makes neatly aligned information with accompanying dates. Use this for employment, honors, other positions, awards, etc. This is a two column table, where the first column is for date information, and the second column is for descriptive text (second column wraps lines).
 
+ * `\begin{datelngtbl}...\end{datelngtbl}` -- A modified `datetbl` environment that uses the `longtable` facilities.
 
 ## Availability
 
