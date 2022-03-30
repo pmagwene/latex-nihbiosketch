@@ -8,6 +8,7 @@ The current version is adjusted to adhere to the changes described in NIH Notice
 
 I tried to mimic the example documents provided on the [SF 424 (R&R) Forms and Applications page](http://grants.nih.gov/grants/funding/424/index.htm#format) as closely as possible. I have used this class for my own grant submissions; however I offer no guarantee of conformity to NIH requirements.
 
+
 ## Quick Start
 
 To use:
@@ -22,6 +23,7 @@ To use:
 The `nihbiosketch` class is based off of the standard article class.  It defines several new commands and environments to make creation of an NIH Biosketch relatively straightforward. The most straightforward approach is to use the `example-nihbiosketch.tex` document as a template for your biosketch.
 
 The companion template `postdoc-nihbiosketch.tex` is organized to mimic a Fellowship Biosketch.
+
 
 ### New commands
 
@@ -40,6 +42,14 @@ The companion template `postdoc-nihbiosketch.tex` is organized to mimic a Fellow
  * `\begin{datetbl}...\end{datetbl}` -- A table environment that makes neatly aligned information with accompanying dates. Use this for employment, honors, other positions, awards, etc. This is a two column table, where the first column is for date information, and the second column is for descriptive text (second column wraps lines).
 
  * `\begin{datelngtbl}...\end{datelngtbl}` -- A modified `datetbl` environment that uses the `longtable` facilities.
+
+
+## Contributors
+
+ * **Paul M. Magwene** created the class and all elements not otherwise credited.
+ * **Jason Cory Brunson** added a fellowship template and adapted both templates to NOT-OD-21-073.
+ * **Abigail Noyce** improved underlining behavior via `normalem`.
+
 
 ## Availability
 
