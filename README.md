@@ -22,7 +22,7 @@ To use:
 
 The `nihbiosketch` class is based off of the standard article class.  It defines several new commands and environments to make creation of an NIH Biosketch relatively straightforward. The most straightforward approach is to use the `example-nihbiosketch.tex` document as a template for your biosketch.
 
-The companion template `postdoc-nihbiosketch.tex` is organized to mimic a Fellowship Biosketch.
+The companion template `fellowship-nihbiosketch.tex` is organized to mimic a Fellowship Biosketch.
 
 
 ### New commands
