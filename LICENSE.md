@@ -1,6 +1,6 @@
 # License
 
-nihbiosketch.cls 
+nihbiosketch.cls
 Copyright 2016 Paul M. Magwene
 
 This work may be distributed and/or modified under the
@@ -16,6 +16,6 @@ version 008/05/04 or later.
 
 This work has the LPPL maintenance status `maintained'.
 
-The Current Maintainer of this work is Paul M. Magwene
+The Current Maintainer of this work is Paul M. Magwene.
 
 This work consists of the file nihbiosketch.cls.
