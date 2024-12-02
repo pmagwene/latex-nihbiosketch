@@ -1,3 +1,5 @@
+**WARNING:** Per [NOT-OD-24-163](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-24-163.html), as of 2025 May 25, the NIH will require that biosketches be generated using a forthcoming Common Form through the SciENcv tool on [MyNCBI](https://www.ncbi.nlm.nih.gov/myncbi/), which will include digital certification. Accordingly, _use of this LaTeX class and template is strongly discouraged_ for NIH grant applications.
+
 # latex-nihbiosketch
 
 A LaTeX class implementing the new NIH Biographical Sketch Format.

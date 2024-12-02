@@ -40,7 +40,8 @@
 \RequirePackage[normalem]{ulem}
 
 \RequirePackage{enumitem}
-\setlist[enumerate,2]{label=\alph*.,itemsep=0pt,parsep=1pt,partopsep=1pt}
+\setlist[enumerate,1]{itemsep=0pt,parsep=0pt,partopsep=1pt}
+\setlist[enumerate,2]{label=\alph*.,itemsep=0pt,parsep=0pt,partopsep=1pt}
 
 
 \RequirePackage[largestsep]{titlesec}
@@ -89,11 +90,8 @@ POSITION TITLE: \@position\\
 \pgline
 EDUCATION/TRAINING (\textit{Begin with baccalaureate or other initial professional education, such as nursing, include postdoctoral training and residency training if applicable. Add/delete rows as necessary.})\\}
 
-\newcommand{\grantinfo}[6]
-{\begin{tabular}{@{}lll@{}}
-{#1} & {#2} & {#3} \\
-\end{tabular}
-\newline{#4}\newline{#5}\newline{#6}}
+\newcommand{\grantinfo}[4]
+{\vbox\bgroup\noindent{#1}\newline{#2}\newline{#3}\newline{#4}\egroup}
 
 \newenvironment{education}
 {\bgroup\centering
